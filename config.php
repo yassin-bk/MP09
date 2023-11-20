@@ -1,19 +1,11 @@
 <?php
 
-use Dotenv\Dotenv;
-use framework\app;
-use framework\Database\Connection;
-use framework\Database\database;
-use framework\Route;
-
-$routes= require '../routes.php';
-
-$dotenv = Dotenv::createInmutable(__DIR__.'/..');
-$dotenv->load();
-
-App::bind('config', require '../config.php');
-
-App:bind('database', new database(
-    Connection::make(App::get('config')['database'])
-));
-App::bind('router', (new Route())->define($routes));
+return  [
+    'database' => [
+        'user' =>$_ENV['DB_USERNAME'],
+        'password' =>$_ENV['DB_PASSWORD'],
+        'databasetype' => $_ENV['DB_CONNECTION'],
+        'host' => $_ENV['DB_HOST'],
+        'name' =>$_ENV['DB_DATABASE']
+    ]
+];

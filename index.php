@@ -1,3 +1,6 @@
 <?php
-require "app/index.php";
-require "resources/views/index.blade.php";
+//echo 'Hello World!';
+
+require 'app/index.php';
+
+require 'resources/views/index.blade.php';
