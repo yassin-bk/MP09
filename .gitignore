@@ -25,7 +25,7 @@
 
 # CakePHP 2
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
+/App/tmp/*
+/App/Config/core.php
+/App/Config/database.php
 /vendors/*

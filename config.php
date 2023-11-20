@@ -1,7 +1,7 @@
 <?php
 
 return  [
-    'database' => [
+    'Database' => [
         'user' =>$_ENV['DB_USERNAME'],
         'password' =>$_ENV['DB_PASSWORD'],
         'databasetype' => $_ENV['DB_CONNECTION'],
