@@ -13,7 +13,7 @@ $dotenv->load();
 
 App::bind('config', require '../config.php');
 
-App::bind('Database', new Database(
-    Connection::make(App::get('config')['Database'])
+App::bind('database', new Database(
+    Connection::make(App::get('config')['database'])
 ));
 App::bind('router', (new Route())->define($routes));

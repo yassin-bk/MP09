@@ -1,9 +1,9 @@
 <?php
 
 return [
-    '/'=>'../App/index.php',
-    '/index.php'=>'../App/index.php',
-    '/index'=>'../App/index.php',
-    '/home'=>'../App/index.php',
-    '/tasks' => '../App/index.php',
+    '/'=>'../app/index.php',
+    '/index.php'=>'../app/index.php',
+    '/index'=>'../app/index.php',
+    '/home'=>'../app/index.php',
+    '/tasks' => '../app/index.php',
 ];
