@@ -17,3 +17,7 @@ App::bind('database', new Database(
     Connection::make(App::get('config')['database'])
 ));
 App::bind('router', (new Route())->define($routes));
+
+
+
+

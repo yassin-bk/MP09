@@ -2,7 +2,7 @@
 
 use framework\App;
 
-$tasks = App::get('Database')->selectAll('tasks');
+$tasks = App::get('database')->selectAll('tasks');
 
 $greeting = "Hello World!";
 
