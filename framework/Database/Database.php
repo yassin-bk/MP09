@@ -16,7 +16,7 @@ class Database
     public function selectAll($table)
     {
 
-        $statement = $this->pdo->prepare("SELECT * FROM $table;");
+        $statement = $this->pdo-> prepare("SELECT * FROM $table;");
 
         $statement->execute();
 
