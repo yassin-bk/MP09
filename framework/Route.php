@@ -26,10 +26,10 @@ class Route
             return $this;
         };
         if (!file_exists($this->routes[$uri])){
-            throw new RuntimeException("No s'ha trobat el controller:" . $this->routes[$uri]);
+           throw new RuntimeException("No s'ha trobat el controller:" . $this->routes[$uri]);
 //            dd("No s'ha trobat el controller:" . $this->routes[$uri]);
         }
-        require $this->routes[$uri];
+        require $this-> routes[$uri];
         return $this;
 
     }

@@ -41,23 +41,23 @@
             </thead>
             <tbody>
             <?php foreach ($tasks as $task): ?>
-            <tr>
-                <td>
-                        <?=$task->id;?>
-                </td>
-                <td>
-                        <?=$task->name;?>
-                </td>
-                <td>
-                        <?=$task->description;?>
-                </td>
-                <td>
-                        <?=$task->completed;?>
-                </td>
-                <td>
-                    <a href="#">Edit</a>
-                </td>
-            </tr>
+                <tr>
+                    <td>
+                            <?=$task->id;?>
+                    </td>
+                    <td>
+                            <?=$task->name;?>
+                    </td>
+                    <td>
+                            <?=$task->description;?>
+                    </td>
+                    <td>
+                            <?=$task->completed;?>
+                    </td>
+                    <td>
+                        <a href="#">Edit</a>
+                    </td>
+                </tr>
             <?php endforeach; ?>
             </tbody>
         </table>
@@ -66,3 +66,4 @@
 </header>
 </body>
 </html>
+
