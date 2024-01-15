@@ -1,20 +1,19 @@
 <?php require '../resources/views/layout/html_header.blade.php'; ?>
 <?php require '../resources/views/layout/nav.blade.php'; ?>
+
 <header class="bg-white shadow">
     <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-        <h1 class="text-3xl font-bold tracking-tight text-gray-900">USUARIS</h1>
+        <h1 class="text-3xl font-bold tracking-tight text-gray-900">USERS LIST</h1>
     </div>
 </header>
 <main >
-
-
     <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
         <div class="px-4 sm:px-6 lg:px-8">
             <div class="sm:flex sm:items-center">
 
                 <div class="sm:flex-auto">
-                    <h1 class="text-base font-semibold leading-6 text-gray-900">Usuaris</h1>
-                    <p class="mt-2 text-sm text-gray-700">Llista d'usuaris.</p>
+                    <h1 class="text-base font-semibold leading-6 text-gray-900">Users</h1>
+                    <p class="mt-2 text-sm text-gray-700">A list of users.</p>
                 </div>
                 <!-- <div class="mt-4 sm:ml-16 sm:mt-0 sm:flex-none">
                      <button type="button" class="block rounded-md bg-indigo-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Add task</button>
@@ -28,10 +27,10 @@
                             <thead>
                             <tr>
                                 <th scope="col" class="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0">ID</th>
-                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Nom</th>
-                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Cognom</th>
-                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Correu</th>
-                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Contrasenya</th>
+                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Name</th>
+                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Last Name</th>
+                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Email</th>
+                                <th scope="col" class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">Password</th>
                                 <th scope="col" class="relative py-3.5 pl-3 pr-4 sm:pr-0">
                                     <span class="sr-only">Edit</span>
                                 </th>
