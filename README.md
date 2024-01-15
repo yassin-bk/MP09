@@ -1,9 +1,5 @@
 # App PHP
 
-Creat per Jordi
+Creat per Marc Llao
 
-# Tags
-
-- V0.1: Hello world en PHP
-- V0.2: Hello World en Separation of concerns i MVC
-- V0.3: Database + Routes
+La documentació realitzada es troba dins de la carpeta **Practica**
