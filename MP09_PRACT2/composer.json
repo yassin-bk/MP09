@@ -1,0 +1,22 @@
+{
+  "name": "yassin-bk/mp09",
+  "type": "project",
+  "autoload": {
+    "classmap": [
+      "./"
+    ],
+    "files": [
+      "framework/helpers.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "yassin-bk",
+      "email": "yassinbekkaoui@iesebre.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.5",
+    "ext-pdo": "*"
+  }
+}
